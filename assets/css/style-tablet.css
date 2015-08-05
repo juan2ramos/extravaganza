@@ -1,0 +1,39 @@
+@media only screen and (min-width: 64.063em) { 
+    .don{
+        display: inline-block;
+    }
+    .content_cc{
+        width: 700px;
+    }
+    .content_cc .get_it {
+        font-size: 3.8em;
+        text-align: left;
+        padding-top: 4px;
+        padding-bottom: 0px;
+    }
+    .content_cc .form_content span{
+        display: inline;
+    }
+    .content_cc .form_content .store{
+        padding-left: 68px;
+    }
+    .thanks{
+        position: absolute !important;
+        left: 50% !important;
+        margin: 0;
+        margin-left: -350px;
+        width: 700px;
+    }
+    .thanks span{
+        font-size: 3em;
+    }
+    .thanks .reg{
+        font-size: 3.2em;
+    }
+    .thanks p{
+        font-size: 1.3em;
+    }
+    .thanks button{
+        font-size: 2.0em;
+    }
+}

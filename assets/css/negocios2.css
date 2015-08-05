@@ -1,0 +1,1347 @@
+@font-face {
+    font-family: 'aller-bold';
+    src: url('../fonts/Aller_Bd-webfont.eot');
+    src: url('../fonts/Aller_Bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller_Bd-webfont.woff2') format('woff2'),
+         url('../fonts/Aller_Bd-webfont.woff') format('woff'),
+         url('../fonts/Aller_Bd-webfont.ttf') format('truetype'),
+         url('../fonts/Aller_Bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller-light';
+    src: url('../fonts/Aller_Lt-webfont.eot');
+    src: url('../fonts/Aller_Lt-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Aller_Lt-webfont.woff2') format('woff2'),
+    url('../fonts/Aller_Lt-webfont.woff') format('woff'),
+    url('../fonts/Aller_Lt-webfont.ttf') format('truetype'),
+    url('../fonts/Aller_Lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aller-book';
+    src: url('../fonts/Aller_Rg-webfont.eot');
+    src: url('../fonts/Aller_Rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller_Rg-webfont.woff2') format('woff2'),
+         url('../fonts/Aller_Rg-webfont.woff') format('woff'),
+         url('../fonts/Aller_Rg-webfont.ttf') format('truetype'),
+         url('../fonts/Aller_Rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: aller-bold;
+    src: url(../fonts/Aller_Bd.otf);
+    font-weight:100;
+}
+@font-face {
+    font-family: aller-light;
+    src: url(../fonts/Aller_Lt.ttf);
+    font-weight:200;
+}
+@font-face {
+    font-family: aller-book;
+    src: url(../fonts/Aller_Rg.ttf);
+    font-weight:200;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: aller-book;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+img {
+    border: 0;
+}
+section {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+}
+/*----- MENU -----*/
+header {
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+header .logo-fondo-rojo {
+    background-color: #E91C24;
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+header .logo-fondo-rojo:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #E91C24;
+    border-width: 25px;
+    margin-top: -25px;
+    z-index: 99;
+}
+header .logo-fondo-rojo a {
+    display: block;
+    line-height: 35px;
+    padding: 10px 0 0 0;
+}
+:root header .logo-fondo-rojo a {
+    line-height: 31px;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    float: left;
+}
+header #links {
+    background-color: #333333;
+    width: 40%;
+    position: relative;
+}
+header #links:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #333333;
+    border-width: 25px;
+    margin-top: -25px;
+    z-index: 98;
+}
+header #links ul {
+    text-align: center;
+    margin: 0;
+}
+header #links ul li {
+    float: none;
+    height: 100%;
+    margin: 0 1%;   
+    display: inline-block;
+    text-align: center;
+}
+header #links ul li a {
+    line-height: 50px;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+header #links ul li a:hover~span {
+    border-color: #E91C24;
+}
+.circulo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: all ease-in 0.2s;
+}
+.circulo:hover {
+    border-color: #E91C24;
+}
+.circulo strong {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #E91C24;
+    border-radius: 50%;
+    margin: 5px;
+}
+header #log-in {
+    display: none;
+    width: 20%;
+    background-color: white;
+    transition: all ease 0.3s 0.2s;
+    position: relative;
+}
+header #log-in:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: white;
+    border-width: 25px;
+    margin-top: -25px;
+}
+.open {
+    height: 175px;
+}
+header #log-in a {
+    text-align: center;
+    color: #E91C24; 
+    line-height: 50px;
+    display: block;
+    height: 50px    ;
+    text-decoration: none;
+}
+header #log-in form {
+    display: none;
+}
+header #log-in input[type="text"],
+header #log-in input[type="password"]{
+    width: 80%;
+    height: 30px;
+    color: #333333;
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid #E91C24;
+    margin:10px auto;
+    display: block;
+    font-family: aller-light;
+    outline: none;
+}
+header #log-in input[type="submit"] {
+    background-color: #333333;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*----- GENERALES -----*/
+.menu{
+    cursor:pointer;
+}
+h1,h2 {
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+h1:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 40px 150px 0 150px;
+    margin-left: -150px;
+}
+h1 span, h2 span  {
+    display: block;
+    font-size: 50px;
+}
+.light {
+    font-family: aller-light;
+    font-size: 25px;
+    line-height: 18px;
+}
+#tos-tit h1 .light {
+    color: #E91C24;
+}
+.strong {
+    font-size: 55px;
+}
+#tos-tit h1 .strong {
+    color: #E91C24;
+}
+/*----- HOME -----*/
+
+#home {
+    background-image: url(../images/fondo-home.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+}
+#home article {
+    display: block;
+    width: 80%;
+    padding-top: 90px;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+#home h1 {
+    background-color: #333333;
+}
+#home h1 .light {
+    letter-spacing: 12px;
+}
+#home h1:after {
+    border-top-color: #333333;   
+}
+#home article #video {
+    width: 80%;
+    height: 65%;
+    overflow: hidden;
+    border: 15px solid #333333;
+    margin: auto;
+}
+#home article #video img {
+    width: 100%;
+}
+#home article #btn-participar {
+    background-color: #333333;
+    width: 30%;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    top: -40px;
+    margin: auto;
+    transition: all ease 0.3s;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+#home article #btn-participar:hover {
+    background-color: #1D1D1D;
+}
+#home .year {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 130px;
+}
+
+/*----- INSCRIPCION -----*/
+
+#inscripcion {
+    background-size: cover;
+}
+#inscripcion #tematica h1 {
+    background-color: #E91C24;
+    padding-top: 20px;
+}
+#inscripcion #tematica h1 .strong {
+    font-weight: normal;
+}
+#inscripcion #tematica h1 .light {
+    letter-spacing: 3px;
+}
+#inscripcion #tematica h1:after {
+    border-top-color: #E91C24;
+}
+#inscripcion article {
+    padding: 150px 0 100px 0;
+    text-align: center;
+}
+#inscripcion #tematica {
+    width: 100%;
+    background-image: url(../images/background-white.jpg);
+    background-size: cover;
+    padding-bottom: 11%;
+}
+#inscripcion #tematica p {
+    color: #333333;
+    width: 90%;
+    margin: auto;
+    padding: 10% 0;
+    display: block;
+    text-align: justify;
+    line-height: 22px;
+}
+#inscripcion #tematica h2 {
+    color: #E91C24;
+    margin: 15% auto 0 auto;
+}
+#inscripcion #tematica ul {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-left: 0;
+}
+#inscripcion #tematica ul li {
+    margin: 20px 0;
+}
+#inscripcion #tematica ul li h3 {
+    display: inline-block;
+    color: #E91C24;
+    font-size: 70px;
+    margin: 0 10px;
+}
+#inscripcion #tematica ul li p {
+    color: #333333;
+    display: inline-block;
+    width: 70%;
+    border-bottom: 1px solid #E91C24;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#inscripcion #tematica div {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+}
+#inscripcion #tematica #foto-don-jediondo {
+    height: 80%;
+    position: relative;
+    z-index: 80;
+}
+#inscripcion #tematica #foto-don-jediondo img {
+    height: 100%;
+    margin: 0 auto;
+}
+#inscripcion #tematica #btn-inscripcion {
+    position: relative;
+    z-index: 85;
+    color: #E91C24;
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 0 0 90px 0;
+    background-position: bottom;
+    background-image: url(../images/img-btn-inscripcion.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+#inscripcion #formulario {
+    background-image: url(../images/background-red.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    margin-top: -29%;
+    display: block;
+}
+#inscripcion #formulario h1 {
+    position: relative;
+    background-image: url(../images/recuadro.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: contain;
+    background-position: top;
+    padding-top: 25px;
+    margin-top: 15%;
+}
+/* Formulario */
+#inscripcion #formulario form {
+    display: block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+#inscripcion #formulario form input[type="text"],
+#inscripcion #formulario form input[type="password"] {
+    border: none;
+    display: block;
+    margin: 0 0 20px 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    font-size: 14px;
+    color: #333333;
+}
+#inscripcion #formulario form textarea {
+    width: 100%;
+    display: block;
+    border: none;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+#inscripcion #formulario form .error {
+    background: #79090A;
+    padding: 5px;
+    text-align: left;
+    color: #FFF;
+    font-size: 12px;
+}
+#inscripcion #formulario .terminos {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+#inscripcion #formulario .terminos p {
+    display: inline-block;
+    font-family: aller-light;
+    letter-spacing: 1px;
+    margin: 0 5px;
+}
+#inscripcion #formulario .terminos p a {
+    color: #fff;
+}
+#inscripcion #formulario form input[type="submit"] {
+    display: block;
+    background-color: #333333;
+    width: 50%;
+    border: none;
+    height: 40px;
+    font-family: aller-light;
+    font-size: 20px;
+    margin: 40px auto;
+    color: white;
+}
+#inscripcion #formulario .subir-img {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 4%;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-family: aller-light;
+    font-size: 14px;
+    position: relative;
+}
+#inscripcion #formulario .subir-img input[type=file] {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -25%;
+    opacity: 0;
+}
+#inscripcion #formulario #subir-imagen {
+    background-image: url(../images/img-subir-imagen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#inscripcion #formulario #subir-factura {
+    background-image: url(../images/img-subir-factura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#inscripcion #formulario #subir-imagen.imagen-subida {
+    background-image: url(../images/img-imagen-subida.png);
+}
+#inscripcion #formulario #subir-factura.imagen-subida {
+    background-image: url(../images/img-factura-subida.png);
+}
+/* MAP */
+#inscripcion #formulario aside {
+    display: block;
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+}
+#inscripcion #formulario aside h3 {
+    color: white;
+    font-family: aller-light;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#inscripcion #formulario aside a {
+    background-image: url(../images/img-marco-map.png);
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#inscripcion #formulario aside a strong {
+    display: block;
+}
+#inscripcion #formulario aside a img {
+    width: 15%;
+    height: auto;    
+}
+/* Pop Ups */
+#inscripcion .pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
+#inscripcion .pop-up #registro-exitoso {
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15%;
+    margin-top: -127px;
+}
+#inscripcion .pop-up #registro-exitoso h2 {
+    color: #333333;
+    font-family: aller-light;
+    font-size: 35px;
+    margin: 20px auto;
+}
+#inscripcion .pop-up #registro-exitoso a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+    line-height: 50px;
+    margin-top: 20px;
+    font-family: aller-light;
+    transition: all ease-out 0.3s;
+    font-size: 20px;
+}
+#inscripcion .pop-up #registro-exitoso a:hover {
+    background-color: #1D1D1D;
+}
+#inscripcion .pop-up #registro-exitoso p {
+    color: #333333;
+    border-top: 1px solid #E91C24;
+    width: 80%;
+    margin: 0 auto 30px auto;
+    padding-top: 10px;
+}
+/*----- LOG IN (SECCION) -----*/
+#log-in-seccion {
+    width: 100%;
+    background-image: url(../images/background-white.jpg);
+}
+#log-in-seccion article {
+    display: block;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    margin-left: -200px;
+    margin-top: -177px;
+}
+#log-in-seccion article h1 {
+    background-color: #E91C24;
+    width: 100%;
+    padding-top: 20px;
+}
+#log-in-seccion article form {
+    margin: 0;
+}
+#log-in-seccion article input[type="text"]{
+    width: 80%;
+    height: 50px;
+    color: #333333;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #E91C24;
+    margin: 10px auto;
+    display: block;
+    font-family: aller-light;
+}
+#log-in-seccion article input[type="submit"] {
+    background-color: #333333;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+    height: 70px;
+    font-family: aller-light;
+    transition: all ease-out 0.2s;
+}
+#log-in-seccion article input[type="submit"]:hover {
+    background-color: #1D1D1D;
+}
+
+
+/*----- HISTORIAS -----*/
+/* Proximamente */
+#proximamente {
+    width: 100%;
+    background-image: url(../images/background-white.jpg);
+}
+#proximamente article {
+    background-color: #E91C24;
+    width: 400px;
+    display: block;
+    left: 50%;
+    top: 50%;
+    margin-top: -105px;
+    margin-left: -200px;
+    position: absolute;
+    padding-top: 30px;
+}
+#proximamente article p {
+    font-family: aller-light;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    width: 80%;
+    margin: 20px auto;
+}
+#proximamente article h2 {
+    font-size: 40px;
+    font-family: aller-light;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+}
+#proximamente article h3 {
+    font-size: 22px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #333333;
+    font-family: aller-light;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+}
+
+
+/*----- TIENDAS -----*/
+#tiendas {
+    background-image: url(../images/background-white.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+#tiendas h1 {
+    background-color: #E91C24;
+    top: 100px;
+    position: relative;
+    padding-top: 20px; 
+}
+#tiendas h1:after {
+    border-top-color: #E91C24;
+}
+#tiendas #ciudades {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    list-style: none;   
+}
+#tiendas ul {
+    padding: 0;
+}
+#tiendas ul li {
+    list-style: none; 
+}
+#tiendas #ciudades .ciudad {
+    display: block;
+    width: 100%;    
+    overflow: hidden;
+    transition: all ease-out 0.5s;
+    height: 50px;
+    margin-top: 20px;
+}
+#tiendas #ciudades .ciudad.open-ciudad {
+    height: 200px;
+}
+#tiendas #ciudades .ciudad a {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    z-index: 70;
+}
+#tiendas #ciudades .ciudad a img {
+    height: 30px;
+    float: left;
+    margin: 10px 0 0 20px;
+    transition: all ease-out 0.5s;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+#tiendas #ciudades .ciudad.open-ciudad a img  {
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+#tiendas #ciudades .ciudad ul {
+    display: block;
+    width: 90%;
+    background-color: #E91C24;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -180px;
+    transition: all ease-out 0.5s;
+}
+#tiendas #ciudades .ciudad.open-ciudad ul {
+    top: 0;
+}
+#tiendas #ciudades .ciudad ul li {
+    display: block;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    font-family: aller-light;
+}
+
+/* TOS */
+#tos-tit-bg {
+    background-image: url(../images/background-white.jpg);
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    min-height: 250px;
+    height: 50%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+#tos-tit {
+    height: 50%;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+#tos-tit h1 {
+    width: 400px;
+    background-color: #FFF;
+    top: 100px;
+    position: relative;
+    padding-top: 20px; 
+    margin-top: 5%;
+}
+#tos-tit h1:after {
+    top: 100%;
+    left: 50%;
+    border: solid rgba(0, 0, 0, 0);
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 50px 200px 0 200px;
+    margin-left: -200px;
+    border-top-color: #fff;
+}
+#tos {
+    background-image: url(../images/background-red.png);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: initial;
+    height: auto;
+    min-height: initial;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    padding-top: 400px;
+}
+#tos .content {
+    width: 650px;
+    margin: auto;
+    padding-top: 30px;
+}
+#tos .content h3 {
+    color: #333;
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+#tos .form li {
+    margin: 0.5em 0;
+}
+
+/*add css*/
+
+/*Mobiles*/
+@media only screen and (max-width: 320px) { 
+    #links{
+        width: 100%;
+    }
+    #home article{
+        margin-bottom: 20% !important;
+    }
+    #home article h1:after{
+        border-width: 40px 126px 0 126px !important;
+        margin-left: -126px !important;
+    }
+    #inscripcion #tematica h1:after{
+        border-width: 40px 130px 0px 130px !important;
+        margin-left: -130px !important;
+    }
+    #tos-tit h1:after{
+        border-width: 40px 144px 0 144px !important;
+        margin-left: -144px !important;
+    }
+    #tiendas h1:after{
+        border-width: 40px 144px 0 144px !important;
+        margin-left: -144px !important;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+    #home article{
+        margin-bottom: 20% !important;
+    }
+    #home article h1:after, #inscripcion #tematica h1:after {
+        border-width: 40px 146px 0 146px !important;
+        margin-left: -146px !important;
+    }
+    #tos-tit h1:after{
+        border-width: 40px 164px 0 164px !important;
+        margin-left: -164px !important;
+    }
+    #tiendas h1:after{
+        border-width: 40px 162px 0 162px !important;
+        margin-left: -162px !important;
+    }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+    #home article h1:after, #inscripcion #tematica h1:after {
+        border-width: 40px 150px 0 150px !important;
+        margin-left: -150px !important;
+    }
+    #tos-tit h1:after{
+        border-width: 40px 170px 0 170px !important;
+        margin-left: -170px !important;
+    }
+    #tiendas h1:after{
+        border-width: 40px 168px 0 168px !important;
+        margin-left: -168px !important;
+    }
+}
+@media only screen and (max-width: 736px) { 
+    body{
+        background-image: url(../images/fondo-home.jpg);
+        background-attachment: fixed; 
+    }
+    /*HEADER*/  
+    .menu{
+        display: none;
+    }
+    header{
+        position: relative;
+    }
+    header #log-in, #links{
+        display: none ;
+    }
+    header .logo-fondo-rojo{
+        width: 100% !important;
+        background-color: rgb(144,19,25);
+    }
+    header .logo-fondo-rojo:after {
+        display: none !important;
+    }
+    header #links{
+        background-color: rgb(144,19,25);
+        width: 100%;
+    }
+    header #links ul{
+        height: 100% !important;
+        margin-bottom: 10% !important;
+    }
+    header #links ul li{
+        background-color: rgb(144,19,25);
+        float: none;
+        height: 100%;
+        width: 100%;
+        margin: 0;   
+        display: block;
+        text-align: center;
+        border-bottom: 2px solid #E91C24;
+    }
+    header #links ul li:first-child{
+        border-top: 2px solid #E91C24;
+
+    }
+    header #links ul li a {
+        display: inline-block;
+        font-size: 12px;
+        height: 100%;
+        text-decoration: none;
+        color: white;
+    }
+    header #links ul li a:hover~span {
+        border-color: #E91C24;
+    }
+    header #links:after {
+        display: none;
+    }
+    .circulo{
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 0%;
+    }
+
+    #home{
+        background-image: none;
+        border-right-width: 100%;
+    }  
+    #home article{
+        margin-bottom: 20% !important;
+    }
+    #home article h1{
+        margin-top: 0%;
+        margin-bottom: 22%;
+        width: 100%;
+    }
+    #home article h1:after{
+        border-width: 40px 162px 0 162px;
+        margin-left: -162px;
+    }
+    #video{
+        height: 40% !important;
+        margin-top: 10px !important;
+    }
+    #btn-participar{
+        width: 60% !important;
+    }
+    #home .year{
+        position: relative;
+        margin-left: 40px;
+        bottom: 100%;
+    }
+    /*INICIATIVA*/
+    #inscripcion article{
+        padding-top: 120px;
+    }
+    #inscripcion #tematica h1{
+        width: 90%;
+    }
+    #inscripcion #tematica h1:after {
+        border-width: 40px 170px 0 170px;
+        margin-left: -170px;
+    }
+    #inscripcion #tematica div{
+        display: block;
+        width: 90%;
+        margin: auto;
+    } 
+    #inscripcion #formulario form{
+        width: 90%;
+        margin: auto;
+    }
+    #inscripcion #formulario aside {
+        position: relative;
+        display: block;
+        width: 90%;
+        margin: auto;
+        right: 0;
+    }
+    #inscripcion #formulario .subir-img{
+        width: 90%;
+    }
+    /*TERMINOS*/
+    #tos{
+        background-image: url(../images/background-red.png);
+        background-attachment: fixed; 
+        padding-top: 100%;
+    }
+    #tos-tit h1  .strong{
+        font-size: 40px;
+    }
+    #tos-tit-bg{
+        background-image: none;
+    } 
+    #tos .content{
+        width: 90%;
+    }
+    #tos-tit h1{
+        width: 90%;
+        font-size: 40px;
+    }
+    #tos-tit h1:after{
+        border-width: 40px 185px 0 185px;
+        margin-left: -185px ;
+    }
+    #tos .content h3{
+        color: white;
+        font-size: 2.5em;
+    }
+    /*TIENDAS*/
+    #tiendas h1{
+        width: 90%;
+    }
+    #tiendas h1:after{
+        border-width: 40px 185px 0 185px;
+        margin-left: -185px ;
+    }
+    #tiendas #ciudades{
+        width: 90%;
+    }
+}
+
+/*Fix pantalla al rotar*/
+@media only screen and (min-width: 415px) and (max-width: 799px) {
+    #links {
+        width: 100% !important;
+    }
+    .menu{
+        display: block !important;
+    }
+    #video {
+        height: 90% !important;
+    } 
+    #home article {
+      margin-bottom: 50% !important;
+    }
+    #home article h1:after {
+      border-width: 40px 290px 0 290px !important;
+      margin-left: -290px !important;
+    }
+    #inscripcion #tematica h1:after {
+      border-width: 40px 295px 0 295px !important;
+      margin-left: -295px !important;
+    }
+    #tos-tit h1:after {
+        border-width: 40px 325px 0 325px;
+        margin-left: -325px;
+    }
+    #tiendas h1:after {
+      border-width: 40px 315px 0 315px !important;
+      margin-left: -315px !important;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 800px) and (max-width: 1025px) { 
+    header #links{
+        display: inline;
+        width: 67%;
+    }
+    #tos{
+        background-image: none; 
+    }
+    #tos-tit-bg{
+        background-image: url(../images/fondo-home.jpg);
+        padding: 100%;
+    }
+    #tos .content h3{
+        color:white;
+    }
+}
+
+/*Desde mobil hasta desktop*/
+
+/*THANKS*/
+#thanks {
+    background-image: url(../images/background-white.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#thanks h1{
+    width: 90%;
+    padding-top: 25%;
+    color: rgb(51,51,51);
+}
+#thanks h1 span{
+    font-size: 1.8em;
+    line-height: 1.0em;
+}
+#thanks .networks{
+    background-color: rgb(51,51,51);
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 3%;
+    border-radius: 4%;
+}
+#thanks .networks a{
+    display: block;
+    color: white;
+    margin-bottom: 5%;
+}
+#thanks .networks  img{
+    display: inline-block;
+    width: 18%;
+}
+#thanks .networks p{
+    text-align: center;
+    font-size: 1.5em;
+}
+#thanks .networks  a span{
+    display: inline-block;
+    margin-top: 3%;
+    vertical-align: top;
+    position: relative;
+    padding-left: 6%;
+    font-size: 1.5em;
+}
+#thanks .content{
+    width:90%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    text-align: center;
+}
+#thanks .content iframe{
+    width: 100%;
+    height: 40%;
+}
+#thanks .content p{
+    background-color: rgb(51,51,51);
+    height: 40%;
+    margin: 0%;
+    padding: 5%;
+}
+#thanks .content p span{
+    display: block;
+    padding: 1% 0;
+    font-size: 0.8em;
+}
+#thanks .content p span:first-child{
+    font-size: 2.3em;
+    padding: 1% 0;
+}
+#thanks .content p .line{    
+    border-top: 2px solid red;
+    font-size: 1.0em;
+    margin: 3% 1% 0% 1%;
+    padding-top: 3%;
+}
+#thanks .content p img{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+@media only screen and (min-width: 40.063em){ 
+    .menu{
+        display: none;
+    }
+    #links{
+        width: 66%;
+    } 
+    #thanks h1{
+        padding-top: 6%;
+    }
+    #thanks .networks{
+        padding: 2%;
+    }
+    #thanks .networks p{
+        font-size: 1.9em;
+    }
+    #thanks .networks  a span{
+        margin-top: 6%;
+    }
+    #thanks .content{
+        background-color: rgb(51,51,51);
+        margin: 0 auto;
+        width: 85%;
+        padding: 0;
+        padding-bottom: 0%;
+    }
+    #thanks .content iframe{
+        padding: 1% 0;
+        width: 50% ;
+        height: 392px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #thanks .content p{
+        background-color: rgb(51,51,51);
+        display: inline-block;
+        padding: 1%;
+        height: 200px;
+        width: 45%;
+        vertical-align: top;
+        margin: 3% 0;
+    }
+    #thanks .content p span{
+        display: block;
+        padding: 1% 0;
+        font-size: 1.1em;
+    }
+    #thanks .content p span:first-child{
+        font-size: 4em;
+        padding: 5%;
+    }
+    #thanks .content p .line{    
+        border-top: 2px solid red;
+        font-size: 1.4em;
+        margin: 0 5%;
+        margin-top: 1%;
+        padding-top: 1%;
+    }
+    #thanks .content p img{
+        width: 15%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 3%;
+    }
+}
+@media only screen and (min-width: 64.063em){ 
+    header #links{
+        display: inline;
+    }
+    #thanks h1{
+        padding-top: 10%;
+    }
+}
+@media only screen and (min-width: 90.063em) {
+    #thanks .content p{
+        margin: 0;
+    }
+    #thanks .content p .line{
+        margin: 0 15%;
+    }
+    #thanks .content p .line{
+        font-size: 1.9em;
+    }
+    #thanks .content p img{
+        padding-top: 0%;
+    }
+} 
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+    #thanks .content p span:first-child {
+        padding: 3%;
+    }
+    #thanks .content p img{
+        width: 10%;
+    }
+    #thanks .content p span{
+        font-size: 1.7em;
+    }
+    #thanks .content p .line{    
+        margin: 0 2%;
+        font-size: 1.9em;
+    }
+} 

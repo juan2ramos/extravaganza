@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'aller-bold';
+    src: url('../fonts/Aller_Bd-webfont.eot');
+    src: url('../fonts/Aller_Bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller_Bd-webfont.woff2') format('woff2'),
+         url('../fonts/Aller_Bd-webfont.woff') format('woff'),
+         url('../fonts/Aller_Bd-webfont.ttf') format('truetype'),
+         url('../fonts/Aller_Bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller-light';
+    src: url('../fonts/Aller_Lt-webfont.eot');
+    src: url('../fonts/Aller_Lt-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Aller_Lt-webfont.woff2') format('woff2'),
+    url('../fonts/Aller_Lt-webfont.woff') format('woff'),
+    url('../fonts/Aller_Lt-webfont.ttf') format('truetype'),
+    url('../fonts/Aller_Lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aller-book';
+    src: url('../fonts/Aller_Rg-webfont.eot');
+    src: url('../fonts/Aller_Rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller_Rg-webfont.woff2') format('woff2'),
+         url('../fonts/Aller_Rg-webfont.woff') format('woff'),
+         url('../fonts/Aller_Rg-webfont.ttf') format('truetype'),
+         url('../fonts/Aller_Rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: aller-bold;
+    src: url(../fonts/Aller_Bd.otf);
+    font-weight:100;
+}
+@font-face {
+    font-family: aller-light;
+    src: url(../fonts/Aller_Lt.ttf);
+    font-weight:200;
+}
+@font-face {
+    font-family: aller-book;
+    src: url(../fonts/Aller_Rg.ttf);
+    font-weight:200;
+}
+
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: transparent url("../images/bg-blanco.jpg") repeat scroll 0% 0%;
+}
+
+/*FORMULARIO DE REGISTRO*/
+.don{
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 144px;
+}
+#user_register_form{
+    text-align: center;
+}
+.content_cc{
+    display: inline-block;
+    margin: 100px auto;
+    width: 90%;
+    height: auto;
+    font-family: aller-light;
+    text-align: center;
+}
+.content_cc .get_it {
+    vertical-align: top;
+    font-size: 2.5em;
+    line-height: 0.8em;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.content_cc .logo, .content_cc .get_it{
+    display: inline-block;
+}
+.content_cc .get_it span:last-child{
+    font-family: aller-bold;
+}
+.content_cc p{
+    font-size: 2.1em;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+.content_cc .form_content{
+    background-color: #E8212D;
+    border-radius: 30px;
+    padding: 26px 20px; 
+}
+.content_cc .form_content input,.content_cc .form_content button{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 60px;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: aller-light;
+}
+.content_cc .form_content button{
+    color: white;
+    background-color: #231F20;
+    border: 0px;
+    font-family: aller-bold;
+    font-size: 1.5em;
+}
+.content_cc .form_content .error{
+    color: white;
+    display: none;
+    font-family: aller-bold;
+}
+.content_cc .form_content span{
+    color:white;  
+    display: block;
+}
+.content_cc .form_content .confirm{
+    display: inline;
+    width: 34px;
+    height: 30px;
+    line-height: 0px;
+    background-color: transparent;
+    color: white;
+    font-weight: aller-light;
+    border: 1px solid white;
+    margin: 0px 10px;
+    font-size: 1.0em;
+    margin-top: 0px;
+}
+.content_cc .form_content #save_user{
+    margin-top: 28px;
+}
+.thanks{
+    background-color: #E8212D;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 0px;
+    width: 90%;
+    display: none;
+    text-align: center;
+    left: 0px !important;
+    margin: 0 10px;
+}
+.thanks span{
+    font-size: 2em;
+    font-family: aller-light;
+}
+.thanks .reg{
+   font-size: 2.2em;
+   font-family: aller-bold;  
+   line-height: 30px;
+}
+.thanks p{
+    border-top: 3px solid white;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 14px;
+    width: 90%;
+    font-size: 1em;
+    display: none;
+    font-family: aller-light;
+}
+.thanks button{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 60px;
+    font-size: 1.5em;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: aller-light;
+}
+
+
+
+
+
+
+
+
