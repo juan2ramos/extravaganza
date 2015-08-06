@@ -11,9 +11,7 @@
                     href=""><?php echo img(['src' => 'assets/images/extravaganza/logo-politecnico.png']); ?></a></li>
             <li><a href=""><?php echo img(['src' => 'assets/images/extravaganza/logo-acodres.png']); ?></a></li>
         </ul>
-        <p class="Footer-sponsors-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        <p class="Footer-sponsors-p">
         </p>
         <figure class="logo-makro">
             <?php echo img(['src' => 'assets/images/extravaganza/logo-makro.svg']); ?>

@@ -16,6 +16,42 @@ $('.button-nav').on(eventType, function () {
 
 $(function () {
 
+
+
+    $("body").delegate("#save_user","click",function(){
+        params = $('#user_register_form').serialize();
+
+        $.ajax({
+            url: $("#base_url").val() + 'extravaganza/save_user',
+            data: params,
+            type: 'POST',
+            success: function(r){
+                $( ".error" ).each(function() {
+                    $(this).hide();
+                });
+                response = JSON.parse(r);
+                if(response == "YES" || response == "NO"){
+                    var id = ".c_"+response;
+                    console.log(id);
+                    $(id).show();
+                    $('.thanks').bPopup({
+                        speed: 650,
+                        transition: 'slideIn',
+                        transitionClose: 'slideBack'
+                    });
+                }else{
+                    /*response.forEach(function(error) {
+                     $("#s_"+error).show();
+                     });*/
+                    for (var i = 0; i < response.length; i++) {
+                        var id = "#s_"+response[i];
+                        $(id).show();
+                    };
+                }
+            }
+        });
+    });
+
 });
 if ($(window).width() > 800) {
     $list.on(eventType ,function () {
@@ -62,7 +98,7 @@ function dayCounter() {
 
     var date = new Date(),
         today = new Date(date.getFullYear(), date.getMonth() + 1, date.getDate()).getTime(),
-        deadline = new Date(2015, 10, 5).getTime(),
+        deadline = new Date(2015, 9, 2).getTime(),
         days = (deadline - today ) / (1000 * 60 * 60 * 24);
     $('.Welcome-count span').text(days);
 }
