@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$this->load->view("templates/header-ext");
+$this->load->view("templates/header-ext-ant");
 ?>
     <?php
       $config = array(
@@ -101,4 +101,4 @@ $this->load->view("templates/header-ext");
         </div>
     </div>
   
-<?php $this->load->view("templates/footer-ext");?>
+<?php $this->load->view("templates/footer-ext-ant");?>

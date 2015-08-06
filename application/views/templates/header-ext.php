@@ -31,14 +31,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <span></span>
         </div>
         <figure class="Header-logo">
-            <a href="<?php echo site_url("conoce-extravaganza"); ?>"> <?php echo img(['src' => 'assets/images/extravaganza/logo.svg']); ?></a>
+            <a href="<?php echo site_url("extravaganza"); ?>"> <?php echo img(['src' => 'assets/images/extravaganza/logo.svg']); ?></a>
         </figure>
         <nav class="Header-nav">
             <ul>
-                <li><a href="<?php echo site_url("zonas-feria"); ?>">CONOCE EXTRAVAGANZA</a></li>
-                <li><a href="<?php echo site_url("lo-que-necesitas-saber"); ?>">ZONAS DE LA FERIA</a></li>
-                <li><a href="<?php echo site_url("consigue-pase"); ?>">TODO LO QUE NECESITAS SABER</a></li>
-                <li><a href="#">¡CONSIGUE TU PASE!</a></li>
+                <li><a href="<?php echo site_url("extravaganza/conoce-extravaganza"); ?>">CONOCE EXTRAVAGANZA</a></li>
+                <li><a href="<?php echo site_url("extravaganza/zonas-feria"); ?>">ZONAS DE LA FERIA</a></li>
+                <li><a href="<?php echo site_url("extravaganza/lo-que-necesitas-saber"); ?>">TODO LO QUE NECESITAS SABER</a></li>
+                <!--<li><a href="<?php /*echo site_url("extravaganza/consigue-pase"); */?>">¡CONSIGUE TU PASE!</a></li>-->
             </ul>
         </nav>
 

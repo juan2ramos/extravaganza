@@ -5,7 +5,8 @@ var eventType = ((document.ontouchstart !== null) ? 'click' : 'touchstart'),
     $button = $('.NeedKnow-button'),
     $NeedKnowLi = $('.NeedKnow-ul li'),
     $NeedKnowArticles = $('.NeedKnow-articles'),
-    $back = $('.back');
+    $back = $('.back'),
+    flag = true;
 
 $('.button-nav').on(eventType, function () {
 
@@ -16,16 +17,20 @@ $('.button-nav').on(eventType, function () {
 $(function () {
 
 });
+if ($(window).width() > 800) {
+    $list.on(eventType ,function () {
 
-$list.on(eventType ,function () {
-    allPanels.slideUp(800);
-    $list.removeClass('open');
-    $(this).find('p').slideDown(500);
-    $(this).addClass("open");
+        allPanels.slideUp(800);
+        $list.removeClass('open');
+        $(this).find('p').slideDown(500);
+        $(this).addClass("open");
 
-    return false;
 
-});
+        return false;
+
+    });
+}
+
 $button.on(eventType ,function () {
     $(this).parent().find('article').toggleClass('translate');
     $('.play').toggleClass('rotate');
@@ -33,11 +38,12 @@ $button.on(eventType ,function () {
 });
 $back.on(eventType ,function () {
     $NeedKnowArticles.css('-webkit-transform','translateY(100vh)');
+
     $('.NeedKnow-content').css('z-index', '-1');
 
 });
 $NeedKnowLi.on(eventType ,function () {
-    var topArticle ;;
+    var topArticle ;
     if ($(window).width() > 800) {
         topArticle = parseInt($(this).index()) * -460;
         $NeedKnowArticles.css('top',topArticle);

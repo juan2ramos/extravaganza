@@ -40,10 +40,12 @@
 
 $route['default_controller'] = 'close';
 $route['404_override'] = '';
-$route['conoce-extravaganza'] = 'extravaganza/home';
-$route['zonas-feria'] = 'extravaganza/zone';
-$route['lo-que-necesitas-saber'] = 'extravaganza/needKnow';
-$route['consigue-pase'] = 'extravaganza/getCard';
+
+$route['extravaganza'] = 'extravaganza/home';
+$route['extravaganza/conoce-extravaganza'] = 'extravaganza/zone';
+$route['extravaganza/zonas-feria'] = 'extravaganza/needKnow';
+$route['extravaganza/lo-que-necesitas-saber'] = 'extravaganza/getCard';
+$route['extravaganza/consigue-pase'] = 'extravaganza/index';
 
 
 /* End of file routes.php */

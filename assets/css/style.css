@@ -115,12 +115,13 @@ Header
     text-align: center;
     position: relative;
     max-width: 1080px;
+    z-index: 100;
 }
 .Header-content{
     width: 100%;
     height: 81px;
     box-shadow: 0 0 50px hsla(0, 0%, 0%, 0.59);
-    z-index: 1;
+    z-index: 2;
     background-color: white;
     position: relative;
     display: none;
@@ -137,7 +138,7 @@ Header
 .Header-nav {
     margin: 2.2rem 0;
     padding-left: 220px;
-
+    z-index: 100;
     transition: all .5s ;
     -webkit-transition: all .5s ;
     -moz-transition: all .5s ;
@@ -582,6 +583,8 @@ NeedKnow
 
 .rotate {
     transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
     display: block;
     color: black;
     /* height: 200px; */
@@ -786,7 +789,7 @@ MediaQueries
         position: absolute;
         padding: 0;
         top: -130px;
-        z-index: 1;
+        z-index: 2;
     }
     .Header-nav li{
         border: none;
@@ -831,7 +834,7 @@ MediaQueries
 @media (max-width: 800px) {
     .NeedKnow-articles{
         position: relative;
-
+        transform: translateY(100vh);
         transition: all .5s ;
         -webkit-transition: all .5s ;
         -moz-transition: all .5s ;
@@ -894,6 +897,7 @@ MediaQueries
         max-width: 100vw;
         height: calc(100vh - 81px);
         left: 0px;
+        z-index: -1;
     }
     .NeedKnow-nav {
         position: static;
@@ -1028,11 +1032,31 @@ MediaQueries
         color: white;
         margin: 10px;
     }
+    .Zone-list p{
+        display: block !important;
+        font-size: 2vh;
+    }
+    .Zone-list h2{
+        font-size: 2.7vh;
+        line-height: 1.2em;
+        padding: 0 0 9px;
+        text-align: left;
+    }
+    .Zone{
+        top: 0;
+    }
 
 }
 .translate{
     transform: translateX(-43%);
+    -moz-transform: translateX(-43%);
+    -webkit-transform: translateX(-43%);
 }
 .play.rotate{
     transform: rotate(540deg) translateX(5px);
+    -webkit-transform: rotate(540deg) translateX(5px);
+    -moz-transform: rotate(540deg) translateX(5px);
+}
+.back{
+    display: none;
 }
