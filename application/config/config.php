@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://negocios.app/';
+$config['base_url']	= 'http://negociosnew.app/';
 
 /*
 |--------------------------------------------------------------------------

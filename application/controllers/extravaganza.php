@@ -67,4 +67,70 @@ class Extravaganza extends CI_Controller {
             echo json_encode($errors);
         }
     }
+     function home()
+    {
+        $title = 'conoce extravaganza';
+        $arrayForm = [
+            's_document' => [
+                'config' => [
+                    'name' => 'document',
+                    'id' => 'document',
+                    'placeholder' => 'CÉDULA O NIT',
+                    'maxlength' => '100',
+                    'class' => 'f_input',
+                ],
+                'error' => 'El DOCUMENTO es requerido, inválido o ya fue registrado'
+            ],
+            's_names' => [
+                'config' => ['name' => 'names',
+                    'id' => 'names',
+                    'placeholder' => 'NOMBRES',
+                    'maxlength' => '100',
+                    'class' => 'f_input',
+                ],
+                'error' => 'Los NOMBRES son requeridos'
+            ],
+
+            's_email' => [
+                'config' => [
+                    'name' => 'email',
+                    'id' => 'email',
+                    'placeholder' => 'E-MAIL',
+                    'maxlength' => '100',
+                    'class' => 'f_input',
+                ],
+                'error' => 'El E-MAIL es requerido, inválido o ya fue registrado.'
+            ],
+            's_phone' => [
+                'config' => [
+                    'name' => 'phone',
+                    'id' => 'phone',
+                    'placeholder' => 'TELÉFONO',
+                    'maxlength' => '100',
+                    'class' => 'f_input',
+                ], 'error' => 'El TELÉFONO es requerido'
+            ],
+        ];
+        $configSubmit = array(
+            'name' => 'save_user',
+            'id' => 'save_user',
+            'class' => 'btn_action',
+        );
+        $this->load->view("extravaganza/home", compact('title', 'arrayForm','configSubmit'));
+    }
+    function zone()
+    {
+        $title = 'Zonas de la feria';
+        $this->load->view("extravaganza/zone", compact('title'));
+    }
+    function needKnow()
+    {
+        $title = 'Todo lo que necesita saber';
+        $this->load->view("extravaganza/needKnow", compact('title'));
+    }
+    function getCard()
+    {
+        $title = 'Consigue tu pase';
+        $this->load->view("extravaganza/getCard", compact('title'));
+    }
 }

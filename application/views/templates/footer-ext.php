@@ -1,16 +1,29 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
-    <!--[if lt IE 9]>
-        <?php echo '<script type="text/javascript" src="'.base_url().'assets/js/jquery-1.11.3.min.js"></script>';?>
-        <script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js" type="text/javascript"></script>
-    <![endif]-->
-    <!--[if (gte IE 9) | (!IE)]><!-->
-        <?php echo '<script type="text/javascript" src="'.base_url().'assets/js/jquery-2.1.4.min.js"></script>';?>
-    <!--<![endif]-->
-	<!--<script src="<?php echo base_url(); ?>assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>-->
-    <script src="<?php echo base_url(); ?>assets/js/jquery.placeholder.min.js" type="text/javascript"></script>
-    <script src="<?php echo base_url(); ?>assets/js/jquery.bpopup.min.js" type="text/javascript"></script>
-    <script src="<?php echo base_url(); ?>assets/js/extravaganza3.js" type="text/javascript"></script>
-	</body>
+<footer class="Footer">
+    <h5>APOYA</h5>
+
+    <div class="logos">
+
+    </div>
+    <div class="relative">
+        <ul class="Footer-sponsors">
+            <li><a href=""><?php echo img(['src' => 'assets/images/extravaganza/logo-labarra.png']); ?></a></li>
+            <li class="poli"><a
+                    href=""><?php echo img(['src' => 'assets/images/extravaganza/logo-politecnico.png']); ?></a></li>
+            <li><a href=""><?php echo img(['src' => 'assets/images/extravaganza/logo-acodres.png']); ?></a></li>
+        </ul>
+        <p class="Footer-sponsors-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        </p>
+        <figure class="logo-makro">
+            <?php echo img(['src' => 'assets/images/extravaganza/logo-makro.svg']); ?>
+        </figure>
+    </div>
+</footer>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/js/main.js"></script>
+
+</body>
 </html>
