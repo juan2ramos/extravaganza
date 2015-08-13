@@ -27,7 +27,15 @@ $this->load->view("templates/header-ext");
     </div>
 
     <p class="Register-p">¡Regístrate con anticipación totalmente gratis</p>
-    <?php echo form_open('', ['class' => 'Register-form']); ?>
+    <?php echo form_open('', ['class' => 'Register-form', 'id'=> 'user_register_form']); ?>
+
+    <div class="thanks">
+        <span>GRACIAS POR</span><br /><span class="reg">REGISTRARTE</span>
+        <p class="c_YES">En makro Extravaganza, reclama tu cédula y tus primeros $10.000 pesos makro acumulables para redimir premios instantáneos dentro de la Feria.</p>
+        <p class="c_NO">Recuerda que puedes sacar tu pasaporte <strong>totalmente gratis</strong> en cualquiera de nuestras tiendas o directamente en la Feria Extravaganza.</p>
+
+    </div>
+
     <input type="hidden" id="base_url" value="<?php echo base_url()?>">
     <?php foreach ($arrayForm as $key => $input): ?>
         <span id="<?php echo $key ?>" class="error"><?php echo $input['error'] ?></span>
@@ -36,19 +44,19 @@ $this->load->view("templates/header-ext");
 
     <span id="s_store" class="error">Indique si tiene o no un Negocio.</span>
 
-    <div class="content-input left">
+    <div class="content-input left hideForm">
         <span class="store">¿TIENES NEGOCIO?</span>
-        <input type="radio" name="business" title="si" value="si">
-        <input type="radio" name="business" title="no" value="no">
+        <input type="radio" name="store" title="si" value="si">
+        <input type="radio" name="store" title="no" value="no">
     </div>
     <span id="s_passaport" class="error">Indique si tiene o no Pasaporte Makro.</span>
 
 
 
-    <div class="content-input">
+    <div class="content-input hideForm">
         <span>¿TIENES PASAPORTE MAKRO?</span>
-        <input type="radio" name="pass" title="si" value="si">
-        <input type="radio" name="pass" title="no" value="no">
+        <input type="radio" name="passaport" title="si" value="si">
+        <input type="radio" name="passaport" title="no" value="no">
     </div>
     <figure class="DonJediondo">
         <?php echo img('assets/images/extravaganza/img-don-jediondo.png'); ?>

@@ -520,6 +520,10 @@ NeedKnow
 }
 
 .NeedKnow-dates {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
     position: absolute;
     right: -39%;
     top: 0;
@@ -580,6 +584,7 @@ NeedKnow
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
+
 }
 
 .NeedKnow-button {
@@ -877,9 +882,15 @@ MediaQueries
 }
 
 @media (max-width: 800px) {
+    .NeedKnow-dates table,.NeedKnow-dates h2 {
+        font-size: 4vw;
+        padding: 3px;
+    }
     .NeedKnow-articles {
         position: relative;
         transform: translateY(100vh);
+        -webkit-transform: translateY(100vh);
+        -moz-transform: translateY(100vh);
         transition: all .5s;
         -webkit-transition: all .5s;
         -moz-transition: all .5s;
@@ -1110,7 +1121,7 @@ MediaQueries
     }
 
     .NeedKnow-articleContent button {
-        display: block;
+        display: inline-block;
         max-width: 100px;
         padding: 10px;
         border: none;
@@ -1134,9 +1145,30 @@ MediaQueries
     .Zone {
         top: 0;
     }
+    .thanks span{
+        font-size: 5vw;
+    }
+    button.activity{
+        background-color: white;
+        border: 1px solid black;
+        max-width: 50%;
+        color: black;
+        font-size: 2vh;
+        vertical-align: top;
+    }
 
+    table.mini{
+        font-size: 3vw;
+    }
+
+    table.mini td{
+        padding: 0;
+    }
 }
 
+.thanks span{
+    font-size: 2rem;
+}
 .translate {
     transform: translateX(-43%);
     -moz-transform: translateX(-43%);
@@ -1187,6 +1219,30 @@ MediaQueries
     color: #E8212D;
 }
 
-.content-input {
+.thanks {
+    display: none;
+}
+.activity{
+    display: none;
+}
+.showDate{
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.backDate{
+    width: 90%;
+    margin: 10px 5%;
+    color: white;
+    background: black;
+    border:none;
+    padding: 5px;
+}
+table.mini{
+    font-size: .8rem;
+}
 
+.NeedKnow-dates h2.mini {
+    font-size: 1rem;
+    padding: 0;
 }

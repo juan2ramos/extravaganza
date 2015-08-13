@@ -2,12 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c7321a-f835-427b-9039-fc78bb8a46ae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/MankSans-Medium.woff" afterPath="$PROJECT_DIR$/assets/fonts/MankSans-Medium.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/MankSans-MediumOblique.woff" afterPath="$PROJECT_DIR$/assets/fonts/MankSans-MediumOblique.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/MankSans-Oblique.woff" afterPath="$PROJECT_DIR$/assets/fonts/MankSans-Oblique.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/MankSans.woff" afterPath="$PROJECT_DIR$/assets/fonts/MankSans.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/bg-blanco.jpg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/bg-blanco.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/bg-rojo.jpg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/bg-rojo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-ciudad-descripcion.png" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-ciudad-descripcion.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-ciudad.png" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-ciudad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-don-jediondo.png" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-don-jediondo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-parque-rojo.jpg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-parque-rojo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/extravaganza.php" afterPath="$PROJECT_DIR$/application/controllers/extravaganza.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/footer-ext.php" afterPath="$PROJECT_DIR$/application/views/templates/footer-ext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/footer-simple.php" afterPath="$PROJECT_DIR$/application/views/templates/footer-simple.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/header-ext.php" afterPath="$PROJECT_DIR$/application/views/templates/header-ext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/extravaganza/home.php" afterPath="$PROJECT_DIR$/application/views/extravaganza/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-hipermercado.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-hipermercado.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-hotel.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-hotel.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-negocios.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-negocios.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-parque.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-parque.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-registraduria.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-registraduria.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-teatro.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-teatro.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-transporte-08.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-transporte-08.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-zona-g.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-blanco-zona-g.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/extravaganza/svg/icon-cedula-08.svg" afterPath="$PROJECT_DIR$/application/views/extravaganza/svg/icon-cedula-08.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-cedula-08.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-cedula-08.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-hipermercado.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-hipermercado.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-hotel.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-hotel.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-negocios.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-negocios.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-parque.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-parque.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-registraduria.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-registraduria.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-teatro.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-teatro.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-zona-g.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/icon-rojo-zona-g.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-contenedor.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-contenedor.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-engrane-negro.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-engrane-negro.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/extravaganza/img-engrane-rojo.svg" afterPath="$PROJECT_DIR$/assets/images/extravaganza/img-engrane-rojo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/extravaganza/register.php" afterPath="$PROJECT_DIR$/application/views/extravaganza/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/extravaganza/needKnow.php" afterPath="$PROJECT_DIR$/application/views/extravaganza/needKnow.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/extravaganza/zone.php" afterPath="$PROJECT_DIR$/application/views/extravaganza/zone.php" />
     </list>
     <ignored path="negociosFinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,111 +59,29 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="negociosFinal" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52437323">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.108291">
-                  <caret line="809" column="12" selection-start-line="809" selection-start-column="12" selection-end-line="809" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="needKnow.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="16.8">
-                  <caret line="563" column="51" selection-start-line="563" selection-start-column="51" selection-end-line="563" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="extravaganza.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/controllers/extravaganza.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-32.254547">
-                  <caret line="125" column="21" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.563637">
-                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/extravaganza/home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.097561">
-                  <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer-ext.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/templates/footer-ext.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.490909">
-                  <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="17" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="extravaganza3.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/extravaganza3.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-27.333334">
-                  <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.723301">
-                  <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.363636">
-                  <caret line="30" column="13" selection-start-line="6" selection-start-column="3" selection-end-line="30" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5712025">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,15 +89,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/views/extravaganza/needKnow.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/header-ext.php" />
         <option value="$PROJECT_DIR$/assets/js/extravaganza3.js" />
         <option value="$PROJECT_DIR$/application/views/extravaganza/register.php" />
-        <option value="$PROJECT_DIR$/application/views/extravaganza/home.php" />
         <option value="$PROJECT_DIR$/application/views/templates/footer-ext.php" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/application/views/extravaganza/home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/extravaganza.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
+        <option value="$PROJECT_DIR$/application/views/extravaganza/zone.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header-ext.php" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/application/views/extravaganza/needKnow.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/application/views/home/historias.php" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
       </list>
     </option>
   </component>
@@ -159,9 +118,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -187,7 +145,11 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Default" />
+        <subPane subId="Problems" />
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,24 +179,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="negociosFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="negociosFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,7 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extravaganza" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,10 +299,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uvee-new-site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/config/routes.php&#10;main&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/assets/js/main.js" />
-    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/views/extravaganza/needKnow.php&#10;header&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/views/templates/header-ext.php&#10;extra&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/controllers/extravaganza.php&#10;re&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/views/extravaganza/register.php&#10;home&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/views/extravaganza/home.php&#10;routes&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/application/config/routes.php&#10;main&#9;FILE&#9;file:///Users/valentinalopez/Sites/negociosFinal/assets/js/main.js" />
+    <property name="FullScreen" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/home" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -379,6 +330,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -396,27 +353,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30186722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29347825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24381253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24381253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -435,7 +392,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php</url>
-          <line>12</line>
+          <line>16</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -446,6 +403,62 @@
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="1163" column="3" selection-start-line="1163" selection-start-column="3" selection-end-line="1163" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/footer-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -454,7 +467,71 @@
     <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="563" column="51" selection-start-line="563" selection-start-column="51" selection-end-line="563" selection-end-column="51" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/footer-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1145" column="19" selection-start-line="1145" selection-start-column="19" selection-end-line="1145" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="632" column="18" selection-start-line="632" selection-start-column="18" selection-end-line="632" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -462,94 +539,191 @@
     <entry file="file://$PROJECT_DIR$/application/views/extravaganza/zone.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="54" column="92" selection-start-line="54" selection-start-column="92" selection-end-line="54" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header-ext.php">
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5454545">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.563637">
+        <state vertical-scroll-proportion="0.0">
           <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28922716">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/extravaganza3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.333334">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.8">
-          <caret line="563" column="51" selection-start-line="563" selection-start-column="51" selection-end-line="563" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/extravaganza.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.254547">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.363636">
-          <caret line="30" column="13" selection-start-line="6" selection-start-column="3" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.097561">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/templates/footer-ext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.490909">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="17" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/extravaganza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.108291">
-          <caret line="809" column="12" selection-start-line="809" selection-start-column="12" selection-end-line="809" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="563" column="51" selection-start-line="563" selection-start-column="51" selection-end-line="563" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/extravaganza3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1591623">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.721174">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/zone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4056095">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3424084">
+          <caret line="1036" column="0" selection-start-line="1036" selection-start-column="0" selection-end-line="1036" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/footer-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53175455">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73627555">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/extravaganza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.53175455">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.723301">
-          <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.82340646">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header-ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/extravaganza/needKnow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.23030303">
+          <caret line="1163" column="3" selection-start-line="1163" selection-start-column="3" selection-end-line="1163" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5712025">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
